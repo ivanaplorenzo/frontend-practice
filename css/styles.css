@@ -13,12 +13,20 @@ body {
     background-position: right;
 }
  	
-h1, h2 {
+h1 {
 	font-family:'Love Ya Like A Sister', cursive;, georgia, serif;
 	font-size: 50px;
 	text-align: center;
 	color:#a7cece; 
 		
+}
+
+h2, h3  {
+	font-family: 'love Ya Like A Sister', cursive;, georgia, serif;
+	font-size: 30px;
+  	color: green;
+  	text-align: center;
+  	margin-left: 50px;
 }
 
 .main2 { 
@@ -30,6 +38,7 @@ h1, h2 {
 	margin-bottom: 50p;
 	margin-right: 300px;
 	margin-left: 50px;
+
 }
 
 a:visited {
@@ -43,7 +52,7 @@ a:active {
 	color: red;
 }
 
-.a {
+.list {
 	list-style: circle;
 	font-family: "calibri";
 	font-size: 15px;
@@ -71,7 +80,7 @@ td {
 	text-align: left;
 }
 
-.guarantee {
+.highlightbig {
 	line-height: 1.9em;
 	font-style: italic;
 	font-family: Georgia, “Times New Roman”, Times, serif;
@@ -83,6 +92,49 @@ td {
 	padding: 25px;
 	margin: 30px;
 	margin-right: 300px;
+}
+
+.b {
+	text-align: center;
+	font-family: 'Source Sans Pro', georgia, serif;
+  	font-size: 15px;
+  	color: green;
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 300px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 20px;
+	
+}
+.guarantee2 {
+	line-height: 1.9em;
+	font-style: italic;
+	font-family: Georgia, “Times New Roman”, Times, serif;
+	color: #444444;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #a7cece;
+	padding: 25px;
+	margin-right: 300px;
+	margin-left: 300px;
+	position: left;
+
+
+}
+
+#footer {
+	font-size: 80%;
+	text-align: center;
+	line-height: normal;
+	margin-top: 100px;
+	background: #444444;
+	color:white;
+	border:1px solid hotpink;
+
 }
 	
 	
