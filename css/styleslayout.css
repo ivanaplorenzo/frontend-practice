@@ -1,0 +1,132 @@
+/*===== BASE ========*/
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('http://fonts.googleapis.com/css?family=Architects+Daughter');
+
+*{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body {
+	margin:0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', 'Georgia', serif;
+	font-size: 16px;
+	line-height: 1.1;
+	background-image: url("http://subtlepatterns.com/patterns/congruent_outline.png");
+    background-repeat: repeat;
+}
+
+
+h2 {
+	margin: 0 0 20px 0;
+}
+
+/*===== COMMON ========*/
+
+.header {
+	text-align: center;
+	background: #B0C4DE;
+	position: relative;
+	width: auto;
+	height: 120px;
+}
+
+.site-name {
+	font-family: 'Architects Daughter'
+
+}
+
+.main-nav, .main-nav ul {
+	overflow: hidden;
+}
+
+.main-nav {
+	background: #d9d9d9;
+}
+
+.main-nav ul {
+	list-style: none;
+}
+
+.main-nav li {
+	float: left;
+}
+
+.main-nav a {
+	padding: 20px;
+}
+
+.article-container {
+	overflow: hidden;
+}
+
+.container{
+	width: 980px;
+	margin:0 auto;
+	background: #F8F8FF;
+	color:#696969;
+	border:1px solid grey;				
+}
+
+.footer {
+  	text-align: center;
+  	font-size: 13px;
+	background: #B0C4DE;
+	position: relative;
+	width: auto;
+	height: 200px;
+	bottom: 0px;
+}
+
+/*===== GRID ========*/
+
+.col {
+	float: left;
+	padding: 35px;
+}
+
+.col-main {
+	width: 60%;
+}
+
+.col-secondary {
+	width: 40%;
+}
+
+.blockquote {
+   font: 16px/22px 'Open Sans Condensed', 'Georgia', serif;
+   margin: 10px 0 10px 50px;
+   padding-left: 15px;
+   border-left: 3px solid #ccc;
+ 
+}
+
+.image-container {
+	width: 60%;
+	border: 1px solid #D3D3D3;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+.caption{
+	text-align: center;
+	font-style: bold;
+	font-size: 12px;
+}
+
+a:visited {
+	color:#FF0000;
+
+}
+a:hover {
+	color:#000000;
+}
+a:active {
+	color: #FFFF00;
+}
+
+
+
