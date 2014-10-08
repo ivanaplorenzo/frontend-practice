@@ -1,0 +1,36 @@
+@import url('http://fonts.googleapis.com/css?family=Lato');
+
+.menu-principal-3 ul {
+    list-style:none;
+    font-family: 'lato', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: -2px;
+    line-height: 1.2em;
+    float:right;
+    clear:both;
+    margin:20px 160px;
+    text-transform: uppercase;
+}
+.menu-principal-3 ul li{
+    float:left;
+}
+.menu-principal-3 ul li a{
+    display:block;
+    text-decoration:none;
+    padding:5px;
+    width:170px;
+    border-left:6px solid #888; 
+}
+.menu-principal-3 ul li a span{
+    display:block;
+}
+.menu-principal-3 ul li a span.title{
+    color:#FAFAFA;
+}
+.menu-principal-3 ul li a:hover{
+    border-left:6px solid #FAFAFA;
+}
+.menu-principal-3 ul li a:hover span.title{
+    color:#30A689
+
+}

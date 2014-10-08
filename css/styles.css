@@ -7,9 +7,9 @@
 }
 
 body { 
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3QIPo_x8VKyL3U2TWehR2DI99vDdBupcdAyhCqb8gIWn_PTdu-mK4p4q8");
+	background-image:url("http://iconshow.me/media/images/Textures/Textures-set/cream_pixels.png");
     background-color: white; 
-    background-repeat: repeat-y;
+    background: repeat;
     background-position: right;
 }
  	
